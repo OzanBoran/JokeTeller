@@ -36,3 +36,9 @@ This JavaScript application utilizes the VoiceRSS API to convert random jokes fr
 - The code includes error handling for API requests, but ensure proper network connectivity.
 - Customize the code as needed for your specific project requirements.
 
+## Deployment
+
+The project is deployed and can be accessed online at: https://ozan-boran.github.io/JokeTeller/
+
+## Credits
+- **Developer:** Ozan Boran
