@@ -8,7 +8,6 @@ This JavaScript application utilizes the VoiceRSS API to convert random jokes fr
 - [Prerequisites](#Prerequisites)
 - [Getting Started](#Getting-Started)
 - [JavaScript Methods](#javascript-methods)
-- [Additional Notes](#additional-notes)
 - [Deployment](#deployment)
 
 ## Features
@@ -53,12 +52,6 @@ This JavaScript application utilizes the VoiceRSS API to convert random jokes fr
 5. **`getJokes()` Function**: Fetches a random joke from JokeAPI, processes the data, and calls `tellMe` to convert and play the joke using text-to-speech. Disables the button during the API request.
 
 6. **Event Listeners**: Adds click and ended event listeners to the button and audio elements, triggering the respective functions.
-
-
-## Additional Notes
-
-- The code includes error handling for API requests, but ensure proper network connectivity.
-- Customize the code as needed for your specific project requirements.
 
 ## Deployment
 
