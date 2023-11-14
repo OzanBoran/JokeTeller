@@ -31,6 +31,21 @@ This JavaScript application utilizes the VoiceRSS API to convert random jokes fr
 
 4. Click the "Tell me a joke" button to fetch and play a random joke.
 
+### JavaScript Methods Explanation:
+
+1. **`document.getElementById('button')`**: Retrieves the button element from the DOM and stores it in the `button` variable.
+
+2. **`document.getElementById('audio')`**: Fetches the audio element from the DOM and assigns it to the `audioElement` variable.
+
+3. **`toggleButton()` Function**: Toggles the `disabled` attribute of the button, enabling or disabling it.
+
+4. **`tellMe(joke)` Function**: Uses the VoiceRSS API to convert a joke into speech, specifying parameters like API key, language, voice, etc.
+
+5. **`getJokes()` Function**: Fetches a random joke from JokeAPI, processes the data, and calls `tellMe` to convert and play the joke using text-to-speech. Disables the button during the API request.
+
+6. **Event Listeners**: Adds click and ended event listeners to the button and audio elements, triggering the respective functions.
+
+
 ## Additional Notes
 
 - The code includes error handling for API requests, but ensure proper network connectivity.
