@@ -2,6 +2,15 @@
 
 This JavaScript application utilizes the VoiceRSS API to convert random jokes from the JokeAPI into speech. The generated audio is played through an HTML audio element, providing an interactive and entertaining experience. This repository serves as a simple project demonstrating the integration of text-to-speech functionality.
 
+## Table of Contents
+
+- [Features](#features)
+- [Prerequisites](#Prerequisites)
+- [Getting Started](#Getting-Started)
+- [JavaScript Methods](#javascript-methods)
+- [Additional Notes](#additional-notes)
+- [Deployment](#deployment)
+
 ## Features
 
 - Fetches random jokes from the JokeAPI.
@@ -31,7 +40,7 @@ This JavaScript application utilizes the VoiceRSS API to convert random jokes fr
 
 4. Click the "Tell me a joke" button to fetch and play a random joke.
 
-### JavaScript Methods Explanation:
+### JavaScript Methods:
 
 1. **`document.getElementById('button')`**: Retrieves the button element from the DOM and stores it in the `button` variable.
 
